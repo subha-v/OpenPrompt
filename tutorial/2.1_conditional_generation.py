@@ -89,7 +89,7 @@ generation_arguments = {
     "repetition_penalty": 1.0,
     "num_beams": 5,
     "bad_words_ids": [[628], [198]],
-    
+    "attention_mask": 
 }
 
 generated_sentence = evaluate(prompt_model, train_dataloader)
